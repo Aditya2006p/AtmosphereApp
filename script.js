@@ -19,7 +19,7 @@ async function getWeather(city = null, lat = null, lon = null) {
     } else if (lat && lon) {
         url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
     } else {
-        document.getElementById('weather').innerHTML = `<p>Location not provided</p>`;
+        document.getElementById('weather').innerHTML = `Location not provided`;
         return;
     }
 
@@ -60,10 +60,10 @@ async function getWeather(city = null, lat = null, lon = null) {
             // Save to history
             addToHistory(data.name, data.main.temp, data.weather[0].description);
         } else {
-            document.getElementById('weather').innerHTML = `<p>${data.message}</p>`;
+            document.getElementById('weather').innerHTML = `${data.message}`;
         }
     } catch (error) {
-        document.getElementById('weather').innerHTML = `<p>Error fetching weather data</p>`;
+        document.getElementById('weather').innerHTML = `Error fetching weather data`;
     }
 }
 
@@ -76,17 +76,19 @@ function getLocationWeather() {
                 getWeather(null, latitude, longitude);
             },
             (error) => {
-                document.getElementById('weather').innerHTML = `<p>Location access denied. Please enter a city name.</p>`;
+                document.getElementById('weather').innerHTML = `Location access denied. Please enter a city name.`;
             }
         );
     } else {
-        document.getElementById('weather').innerHTML = `<p>Geolocation not supported by this browser.</p>`;
+        document.getElementById('weather').innerHTML = `Geolocation not supported by this browser.`;
     }
 }
 
 // Event listener for button click to get weather based on city input
 function getWeatherByCity() {
     const city = document.getElementById('city').value;
+    // Clear any previous error message
+    document.getElementById('weather').innerHTML = '';
     getWeather(city);
 }
 
@@ -96,7 +98,7 @@ function addToHistory(city, temp, description) {
     const historyItem = document.createElement('div');
     historyItem.classList.add('history-item');
     historyItem.innerHTML = `
-        <strong>${city}</strong><br>
+        ${city}
         ${temp}°C, ${description}
     `;
     historyContainer.prepend(historyItem); // Add new items at the top
