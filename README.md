@@ -32,12 +32,12 @@ Weather-Forecasting/
 
 💻 How to Run Locally
 	1.	Clone the repository:
+*
+        . git clone https://github.com/aditya2006p/AtmosphereApp.git
+*
+        .  cd weather-forecasting
 
-git clone https://github.com/aditya2006p/AtmosphereApp.git
-
-cd weather-forecasting
-
-
+8
 	2.	Set up the OpenWeather API:
 	•	Sign up at OpenWeather to get your free API key.
 	•	Replace the API_KEY placeholder in script.js with your actual API key.
