@@ -53,8 +53,12 @@ View Live Demo
  [(Live Demo))](https://aditya2006p.github.io/TicTacToe-Master/)
 
 🌐 OpenWeather API Usage
+
 	•	API Endpoint:
+
+ 
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}
+
 	•	Parameters:
 	•	q: City name (e.g., London)
 	•	appid: Your OpenWeather API key.
