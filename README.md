@@ -30,6 +30,7 @@ Weather-Forecasting/
 	1.	Clone the repository:
 
 git clone https://github.com/aditya2006p/AtmosphereApp.git
+
 cd weather-forecasting
 
 
