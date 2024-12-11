@@ -1,5 +1,3 @@
-Here’s a README.md template for your Weather Forecasting project:
-
 🌤️ Weather Forecasting Application
 
 A user-friendly weather forecasting web application built with HTML, CSS, and JavaScript. It fetches real-time weather data using the OpenWeather API, allowing users to view the current weather conditions and forecasts for any city around the globe.
@@ -23,9 +21,13 @@ A user-friendly weather forecasting web application built with HTML, CSS, and Ja
 
 Weather-Forecasting/
 ├── index.html        # Main HTML file
+
 ├── style.css         # CSS for styling
+
 ├── script.js         # JavaScript for functionality
+
 ├── README.md         # Project description
+
 └── assets/           # Folder for images and icons
 
 💻 How to Run Locally
@@ -45,6 +47,7 @@ Open index.html in your browser to see the application in action.
 🖥️ Live Demo
 
 View Live Demo
+
  [(Live Demo))](https://aditya2006p.github.io/TicTacToe-Master/)
 
 🌐 OpenWeather API Usage
