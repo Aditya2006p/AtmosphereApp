@@ -37,19 +37,19 @@ async function getWeather(city = null, lat = null, lon = null) {
 
             switch(data.weather[0].main){
                 case 'Clouds':
-                    weather_img.src = "/cloud.png";
+                    weather_img.src = "/asserts/cloud.png";
                     break;
                 case 'Clear':
-                    weather_img.src = "/clear.png";
+                    weather_img.src = "/asserts/clear.png";
                     break;
                 case 'Rain':
-                    weather_img.src = "/rain.png";
+                    weather_img.src = "/asserts/rain.png";
                     break;
                 case 'Mist':
-                    weather_img.src = "/mist.png";
+                    weather_img.src = "/asserts/mist.png";
                     break;
                 case 'Snow':
-                    weather_img.src = "/snow.png";
+                    weather_img.src = "/asserts/snow.png";
                     break;
             }
 
