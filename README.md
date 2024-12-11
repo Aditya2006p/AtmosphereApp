@@ -29,7 +29,7 @@ Weather-Forecasting/
 💻 How to Run Locally
 	1.	Clone the repository:
 
-git clone [https://github.com/your-github-username/weather-forecasting.git](https://github.com/Aditya2006p/AtmosphereApp.git)
+git clone https://github.com/Aditya2006p/AtmosphereApp.git
 cd weather-forecasting
 
 
