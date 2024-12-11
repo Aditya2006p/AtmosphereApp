@@ -49,7 +49,7 @@ Open index.html in your browser to see the application in action.
 🖥️ Live Demo
 
 View Live Demo
-([Live Demo](aditya2006p.github.io/AtmosphereApp/))
+([Live Demo](https://aditya2006p.github.io/AtmosphereApp/))
 
 🌐 OpenWeather API Usage
 
