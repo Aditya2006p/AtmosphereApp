@@ -4,7 +4,8 @@ Here’s a README.md template for your Weather Forecasting project:
 
 A user-friendly weather forecasting web application built with HTML, CSS, and JavaScript. It fetches real-time weather data using the OpenWeather API, allowing users to view the current weather conditions and forecasts for any city around the globe.
 
-![Uploading image.png…]()
+<img width="1470" alt="Screenshot 2024-12-11 at 6 04 32 PM" src="https://github.com/user-attachments/assets/c0709455-7e0f-45f5-a5cb-e4b65ad6c9ad">
+
 
 
 🚀 Features
