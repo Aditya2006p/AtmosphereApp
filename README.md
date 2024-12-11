@@ -49,8 +49,7 @@ Open index.html in your browser to see the application in action.
 🖥️ Live Demo
 
 View Live Demo
-
- [(Live Demo))](https://aditya2006p.github.io/TicTacToe-Master/)
+[(Live Demo))](aditya2006p.github.io/AtmosphereApp/)
 
 🌐 OpenWeather API Usage
 
