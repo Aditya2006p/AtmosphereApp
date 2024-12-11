@@ -60,7 +60,7 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🧑‍💻 Author
-	•	Your Name
+	•	Aditya Pandey
 
 📋 Notes
 	•	Ensure you follow OpenWeather’s API usage guidelines.
