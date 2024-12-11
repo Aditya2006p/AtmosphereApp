@@ -44,8 +44,8 @@ Open index.html in your browser to see the application in action.
 
 🖥️ Live Demo
 
-Live Demo
-(https://aditya2006p.github.io/AtmosphereApp/)
+View Live Demo
+ [(Live Demo))](https://aditya2006p.github.io/TicTacToe-Master/)
 
 🌐 OpenWeather API Usage
 	•	API Endpoint:
@@ -54,19 +54,15 @@ https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}
 	•	q: City name (e.g., London)
 	•	appid: Your OpenWeather API key.
 
-🤝 Contribution
 
-Contributions are welcome! Feel free to fork this repository and submit pull requests for new features or bug fixes.
+🤝 Contributions
+
+Contributions are welcome! If you have ideas to improve the app, feel free to fork the repository and submit a pull request.
 
 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-🧑‍💻 Author
+✨ Author
 	•	Aditya Pandey
-
-📋 Notes
-	•	Ensure you follow OpenWeather’s API usage guidelines.
-	•	Replace the placeholders (e.g., your-github-username) with your actual information before uploading to GitHub.
-
-Once the project is live, update the live demo link and add a screenshot of the application to the assets folder for better presentation!
+([GitHub profile link](https://github.com/Aditya2006p))
