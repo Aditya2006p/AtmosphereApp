@@ -42,7 +42,7 @@ Open index.html in your browser to see the application in action.
 🖥️ Live Demo
 
 Live Demo
-(Replace this link with the live demo URL from GitHub Pages)
+(https://aditya2006p.github.io/AtmosphereApp/)
 
 🌐 OpenWeather API Usage
 	•	API Endpoint:
