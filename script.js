@@ -37,21 +37,22 @@ async function getWeather(city = null, lat = null, lon = null) {
 
             switch(data.weather[0].main){
                 case 'Clouds':
-                    weather_img.src = "/asserts/cloud.png";
+                    weather_img.src = "https://github.com/user-attachments/assets/1bdd2b16-9cfc-40cb-844e-ef78e4bef2e3";
                     break;
                 case 'Clear':
-                    weather_img.src = "/asserts/clear.png";
+                    weather_img.src = "https://github.com/user-attachments/assets/aafb3a78-b16e-4339-a531-01982f2027d3";
                     break;
                 case 'Rain':
-                    weather_img.src = "/asserts/rain.png";
+                    weather_img.src = "https://github.com/user-attachments/assets/2854e6dc-4d61-463a-b3fc-c45657934738";
                     break;
                 case 'Mist':
-                    weather_img.src = "/asserts/mist.png";
+                    weather_img.src = "https://github.com/user-attachments/assets/10e707a4-0e0e-4579-98da-b1f93bdec3a2";
                     break;
                 case 'Snow':
-                    weather_img.src = "/asserts/snow.png";
+                    weather_img.src = "https://github.com/user-attachments/assets/bc552a04-c9a5-4477-9461-f2b8312e2c36";
                     break;
             }
+            
 
             // Update background based on weather description
             const weatherMain = data.weather[0].main.toLowerCase();
