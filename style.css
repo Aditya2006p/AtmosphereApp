@@ -18,14 +18,16 @@ body {
     display: flex;
     max-width: 800px;
     width: 100%;
+    flex-direction: column;
 }
 
 .history {
-    width: 200px;
-    overflow-y: auto;
+    width: 100%;
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
     background: rgba(255, 255, 255, 0.9);
     padding: 10px;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 10px 0 0;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -43,7 +45,7 @@ body {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 0 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex: 1;
 }
@@ -93,7 +95,7 @@ input, button {
 }
 
 .container {
-    width: 400px;
+    width: 100%;
     height: min-content;
     background-color: #fff;
     border-radius: 12px;
@@ -221,4 +223,76 @@ input, button {
 
 .location-not-found img {
     width: 80%;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .history {
+        width: 200px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .main {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .weather-body img {
+        width: 50%;
+    }
+
+    .weather-box .temperature {
+        font-size: 50px;
+    }
+
+    .weather-box .description {
+        font-size: 25px;
+    }
+
+    .weather-details i {
+        font-size: 40px;
+    }
+
+    .weather-details .text {
+        font-size: 18px;
+    }
+
+    .text span {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .weather-body img {
+        width: 40%;
+    }
+
+    .weather-box .temperature {
+        font-size: 60px;
+    }
+
+    .weather-box .description {
+        font-size: 30px;
+    }
+
+    .weather-details i {
+        font-size: 50px;
+    }
+
+    .weather-details .text {
+        font-size: 20px;
+    }
+
+    .text span {
+        font-size: 24px;
+    }
 }
